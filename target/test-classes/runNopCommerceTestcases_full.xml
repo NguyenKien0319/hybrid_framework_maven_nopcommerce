@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="NopCommerce" parallel="false">
+
+	<parameter name="url" value="https://demo.nopcommerce.com/"/>
+
+	<test name="RUN ON FIREFOX">
+		<parameter name="browser" value="firefox" />
+		<classes>
+			<class
+				name="com.nopcommerce.register.Register_Account"/>
+			<class
+				name="com.nopcommerce.login.Login_Account"/>
+			<!-- <class
+				name="com.nopcommerce.myaccount.My_Account"/> -->
+			<!-- <class
+				name="com.nopcommerce.search.Search_And_Advanced_Search"/> -->
+			<!-- <class
+				name="com.nopcommerce.sort.Sort_Display_Paging"/> -->
+		<!-- 	<class
+				name="com.nomcommerce.wishlist.WishList_Compare_RecentView"/> -->
+		</classes>
+	</test>
+
+	<test name="RUN ON EDGE">
+		<parameter name="browser" value="edge_chromium" />
+		<classes>
+			<!-- <class
+				name="com.nopcommerce.register.Register_Account" /> -->
+			<!-- <class
+				name="com.nopcommerce.login.Login_Account"/> -->
+			<!-- <class
+				name="com.nopcommerce.myaccount.My_Account"/>	 -->
+			<!-- <class
+				name="com.nopcommerce.search.Search_And_Advanced_Search"/> -->
+			<!-- <class
+				name="com.nopcommerce.sort.Sort_Display_Paging"/>	 -->
+		</classes>
+	</test>
+
+	<!-- <test name="RUN ON CHROME">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class
+				name="com.nopcommerce.register.Register_Account" />
+		</classes>
+	</test> -->
+</suite> 

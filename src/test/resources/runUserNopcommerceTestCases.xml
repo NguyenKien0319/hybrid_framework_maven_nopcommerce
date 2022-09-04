@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="User NopCommerce Project" parallel="false">
+	<!-- <suite name="NopCommerce" parallel="tests" thread-count = "3"> -->
+
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener
+			class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="reportConfig.MethodListener" />
+		<listener class-name="reportConfig.ReportNGListener" />
+	</listeners>
+
+	<parameter name="url" value="https://demo.nopcommerce.com/" />
+
+	<test name="Run on Firefox">
+		<parameter name="browser" value="FireFox" />
+		<classes>
+			<class name="com.nopcommerce.register.Register_Account"/>
+			<!-- <class name="com.nomcommerce.common.Common_01_Login" /> -->
+		    <class name="com.nopcommerce.login.Login_Account"/>
+			<!-- <class name="com.nopcommerce.myaccount.My_Account" /> -->
+			<!-- <class name="com.nopcommerce.search.Search_AdvancedSearch" /> -->
+		</classes>
+	</test>
+
+</suite> 

@@ -1,0 +1,899 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="1" total="13" passed="12" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:26:58,141] ---------- START delete file in folder ----------
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:26:58,142] ---------- END delete file in folder ----------
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:26:58,158] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:03,272] Pre-condition - 01: Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:03,280] Pre-condition - 02: Navigate to RegisterPage
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_01: Open Register Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_02: Click to Register button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:04,983] Register_00 - Step_03: Verify validation error message display
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:05,035]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:05,078]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:05,120]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:05,154]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:05,305] Register_01 - Step_01: Refresh page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:06,397] Register_01 - Step_02: Select Radio button: 'Male'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:06,664] Register_01 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:06,727] Register_01 - Step_04: Input LastName: 'Testing'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:06,772] Register_01 - Step_05: Input invalid email: 'testing'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:06,818] Register_01 - Step_06: Input password: '123456'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:06,864] Register_01 - Step_07: Input confirm password: '123456'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:06,916] Register_01 - Step_08: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:07,176] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:07,226]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:07,250] Register_02 - Step_01: Refresh Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:08,338] Register_02 - Step_02: Select Radio button: 'Male'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:08,602] Register_02 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:08,656] Register_02 - Step_04: Input LastName: 'Testing'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:08,705] Register_02 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:08,758] Register_02 - Step_06: Input password: '123'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:08,800] Register_02 - Step_07: Input confirm password: '123'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:08,839] Register_02 - Step_08: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:09,094] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:09,137]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:09,145] Register_03 - Step_01: Refresh Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:10,228] Register_03 - Step_02: Select Radio button: 'Male'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:10,478] Register_03 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:10,537] Register_03 - Step_04: Input LastName: 'Testing'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:10,583] Register_03 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:10,638] Register_03 - Step_06: Input password: '123456'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:10,680] Register_03 - Step_07: Input confirm password: 'Automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:10,728] Register_02 - Step_08: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:11,483] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:11,531]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:11,540] Register_04 - Step_01: Refresh Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:12,627] Register_04 - Step_02: Select Radio button: 'Male'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:12,882] Register_04 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:12,933] Register_04 - Step_04: Input LastName: 'Testing'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:12,978] Register_04 - Step_05: Input valid email: 'testing304016@hotmail.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:13,037] Register_04 - Step_06: Input password: '123456'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:13,076] Register_04 - Step_07: Input confirm password: '123456'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:13,116] Register_04 - Step_08: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:13,891] Register_04 - Step_09: Verify register success message displayed 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:13,944]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:13,948] Register_05 - Step_01: Click to 'Logout' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:14,591] Register_05 - Step_02: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:14,962] Register_05 - Step_03: Select Radio button: 'Male'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,222] Register_05 - Step_04: Input FirstName: 'Automation'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,271] Register_05 - Step_05: Input LastName: 'Testing'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,311] Register_05 - Step_06: Input invalid email: 'testing304016@hotmail.com'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,355] Register_05 - Step_07: Input password: '123456'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,399] Register_05 - Step_08: Input confirm password: '123456'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,438] Register_05 - Step_09: Click to 'Register' button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,810] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,839]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,843] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:15,844] Driver instance name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:16,502] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:19,150] Pre-condition - 01: Open Home Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:19,150] Pre-condition - 02: Navigate to Login Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 00: Open LoginPage
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 01: Click to Login Button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:19,976] Login_01 - Step 02: Verify error message displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:20,010]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:20,013] Login_02 - Step 01: Refresh Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:20,499] Login_02 - Step 02: Input valid Email
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:20,550] Login_02 - Step 03: Click Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:20,799] Login_02 - Step 04: Verify error message displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:20,838]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:20,848] Login_03 - Step 01: Refresh Page
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:21,890] Login_03 - Step 02: Input Email not registered
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:21,940] Login_03 - Step 03: Click Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,316] Login_03 - Step 04: Verify error message displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,349]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,352] Login_04 - Step 01: Input valid Email 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,401] Login_04 - Step 02: Click Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,760] Login_04 - Step 03: Verify error message displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,787]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,789] Login_05 - Step 01: Input valid Email 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,848] Login_05 - Step 02: Input invalid Password
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:22,887] Login_05 - Step 03: Click Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:23,244] Login_05 - Step 04: Verify error message displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:23,278]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:23,280] Login_06 - Step 01: Input valid Email 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:23,331] Login_06 - Step 02: Input valid Password
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:23,367] Login_06 - Step 03: Click Login button
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:24,015] Login_06 - Step 04: Open HomePage
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:24,016] Login_06 - Step 04: Verify Logout button displayed
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:24,053]  -------------------------- PASSED -------------------------- 
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:24,054] OS name = windows 10
+<br>]]>
+    </line>
+    <line>
+      <![CDATA[[INFO ] [2022-09-04 11:27:24,055] Driver instance name = windows 10
+<br>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-09-04T04:26:58Z" name="User NopCommerce Project" finished-at="2022-09-04T04:27:24Z" duration-ms="26701">
+    <groups>
+    </groups>
+    <test started-at="2022-09-04T04:26:58Z" name="Run on Firefox" finished-at="2022-09-04T04:27:24Z" duration-ms="26701">
+      <class name="com.nopcommerce.login.Login_Account">
+        <test-method is-config="true" signature="BeforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:16Z" name="BeforeClass" finished-at="2022-09-04T04:27:19Z" duration-ms="3218" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:16,502] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:19,150] Pre-condition - 01: Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:19,150] Pre-condition - 02: Navigate to Login Page
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="Login_01_Leave_All_Fields_Empty()[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:19Z" name="Login_01_Leave_All_Fields_Empty" finished-at="2022-09-04T04:27:20Z" duration-ms="291" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 00: Open LoginPage
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 01: Click to Login Button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:19,976] Login_01 - Step 02: Verify error message displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:20,010]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_01_Leave_All_Fields_Empty -->
+        <test-method signature="Login_02_Invalid_Email()[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:20Z" name="Login_02_Invalid_Email" finished-at="2022-09-04T04:27:20Z" duration-ms="826" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:20,013] Login_02 - Step 01: Refresh Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:20,499] Login_02 - Step 02: Input valid Email
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:20,550] Login_02 - Step 03: Click Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:20,799] Login_02 - Step 04: Verify error message displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:20,838]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_02_Invalid_Email -->
+        <test-method signature="Login_03_Email_Not_Registered()[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:20Z" name="Login_03_Email_Not_Registered" finished-at="2022-09-04T04:27:22Z" duration-ms="1503" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:20,848] Login_03 - Step 01: Refresh Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:21,890] Login_03 - Step 02: Input Email not registered
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:21,940] Login_03 - Step 03: Click Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,316] Login_03 - Step 04: Verify error message displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,349]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_03_Email_Not_Registered -->
+        <test-method signature="Login_04_Leave_Password_Blank()[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:22Z" name="Login_04_Leave_Password_Blank" finished-at="2022-09-04T04:27:22Z" duration-ms="437" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,352] Login_04 - Step 01: Input valid Email 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,401] Login_04 - Step 02: Click Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,760] Login_04 - Step 03: Verify error message displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,787]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_04_Leave_Password_Blank -->
+        <test-method signature="Login_05_Input_Incorrect_Password()[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:22Z" name="Login_05_Input_Incorrect_Password" finished-at="2022-09-04T04:27:23Z" duration-ms="490" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,789] Login_05 - Step 01: Input valid Email 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,848] Login_05 - Step 02: Input invalid Password
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:22,887] Login_05 - Step 03: Click Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:23,244] Login_05 - Step 04: Verify error message displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:23,278]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_05_Input_Incorrect_Password -->
+        <test-method signature="Login_06_Login_Success()[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:23Z" name="Login_06_Login_Success" finished-at="2022-09-04T04:27:24Z" duration-ms="774" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:23,280] Login_06 - Step 01: Input valid Email 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:23,331] Login_06 - Step 02: Input valid Password
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:23,367] Login_06 - Step 03: Click Login button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:24,015] Login_06 - Step 04: Open HomePage
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:24,016] Login_06 - Step 04: Verify Logout button displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:24,053]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Login_06_Login_Success -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.nopcommerce.login.Login_Account@30a7c98f]" started-at="2022-09-04T04:27:24Z" name="AfterClass" finished-at="2022-09-04T04:27:24Z" duration-ms="755" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:24,054] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:24,055] Driver instance name = windows 10
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.nopcommerce.login.Login_Account -->
+      <class name="com.nopcommerce.register.Register_Account">
+        <test-method is-config="true" signature="deleteAllFilesInReportNGScreenshot()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:26:58Z" name="deleteAllFilesInReportNGScreenshot" finished-at="2022-09-04T04:26:58Z" duration-ms="27" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:26:58,141] ---------- START delete file in folder ----------
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:26:58,142] ---------- END delete file in folder ----------
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- deleteAllFilesInReportNGScreenshot -->
+        <test-method is-config="true" signature="BeforeClass(java.lang.String, java.lang.String)[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:26:58Z" name="BeforeClass" finished-at="2022-09-04T04:27:04Z" duration-ms="6372" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[FireFox]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://demo.nopcommerce.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:26:58,158] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:03,272] Pre-condition - 01: Open Home Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:03,280] Pre-condition - 02: Navigate to RegisterPage
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- BeforeClass -->
+        <test-method signature="Register_01_Leave_All_Fields_Blank()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:27:04Z" name="Register_01_Leave_All_Fields_Blank" finished-at="2022-09-04T04:27:05Z" duration-ms="616" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_01: Open Register Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_02: Click to Register button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:04,983] Register_00 - Step_03: Verify validation error message display
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:05,035]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:05,078]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:05,120]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:05,154]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_01_Leave_All_Fields_Blank -->
+        <test-method signature="Register_02_Invalid_Email()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:27:05Z" name="Register_02_Invalid_Email" finished-at="2022-09-04T04:27:07Z" duration-ms="1925" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:05,305] Register_01 - Step_01: Refresh page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:06,397] Register_01 - Step_02: Select Radio button: 'Male'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:06,664] Register_01 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:06,727] Register_01 - Step_04: Input LastName: 'Testing'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:06,772] Register_01 - Step_05: Input invalid email: 'testing'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:06,818] Register_01 - Step_06: Input password: '123456'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:06,864] Register_01 - Step_07: Input confirm password: '123456'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:06,916] Register_01 - Step_08: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:07,176] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:07,226]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_02_Invalid_Email -->
+        <test-method signature="Register_03_Password_less_than_6_characters()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:27:07Z" name="Register_03_Password_less_than_6_characters" finished-at="2022-09-04T04:27:09Z" duration-ms="1890" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:07,250] Register_02 - Step_01: Refresh Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:08,338] Register_02 - Step_02: Select Radio button: 'Male'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:08,602] Register_02 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:08,656] Register_02 - Step_04: Input LastName: 'Testing'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:08,705] Register_02 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:08,758] Register_02 - Step_06: Input password: '123'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:08,800] Register_02 - Step_07: Input confirm password: '123'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:08,839] Register_02 - Step_08: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:09,094] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:09,137]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_03_Password_less_than_6_characters -->
+        <test-method signature="Register_04_ConfirmPassword_Not_Match_With_Password()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:27:09Z" name="Register_04_ConfirmPassword_Not_Match_With_Password" finished-at="2022-09-04T04:27:11Z" duration-ms="2389" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:09,145] Register_03 - Step_01: Refresh Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:10,228] Register_03 - Step_02: Select Radio button: 'Male'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:10,478] Register_03 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:10,537] Register_03 - Step_04: Input LastName: 'Testing'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:10,583] Register_03 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:10,638] Register_03 - Step_06: Input password: '123456'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:10,680] Register_03 - Step_07: Input confirm password: 'Automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:10,728] Register_02 - Step_08: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:11,483] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:11,531]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_04_ConfirmPassword_Not_Match_With_Password -->
+        <test-method signature="Register_05_Register_Success()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:27:11Z" name="Register_05_Register_Success" finished-at="2022-09-04T04:27:13Z" duration-ms="2409" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:11,540] Register_04 - Step_01: Refresh Page
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:12,627] Register_04 - Step_02: Select Radio button: 'Male'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:12,882] Register_04 - Step_03: Input FirstName: 'Automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:12,933] Register_04 - Step_04: Input LastName: 'Testing'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:12,978] Register_04 - Step_05: Input valid email: 'testing304016@hotmail.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:13,037] Register_04 - Step_06: Input password: '123456'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:13,076] Register_04 - Step_07: Input confirm password: '123456'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:13,116] Register_04 - Step_08: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:13,891] Register_04 - Step_09: Verify register success message displayed 
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:13,944]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_05_Register_Success -->
+        <test-method signature="Register_06_Email_Already_Registed()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:27:13Z" name="Register_06_Email_Already_Registed" finished-at="2022-09-04T04:27:15Z" duration-ms="1893" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:13,948] Register_05 - Step_01: Click to 'Logout' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:14,591] Register_05 - Step_02: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:14,962] Register_05 - Step_03: Select Radio button: 'Male'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,222] Register_05 - Step_04: Input FirstName: 'Automation'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,271] Register_05 - Step_05: Input LastName: 'Testing'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,311] Register_05 - Step_06: Input invalid email: 'testing304016@hotmail.com'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,355] Register_05 - Step_07: Input password: '123456'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,399] Register_05 - Step_08: Input confirm password: '123456'
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,438] Register_05 - Step_09: Click to 'Register' button
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,810] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,839]  -------------------------- PASSED -------------------------- 
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- Register_06_Email_Already_Registed -->
+        <test-method is-config="true" signature="AfterClass()[pri:0, instance:com.nopcommerce.register.Register_Account@34fe326d]" started-at="2022-09-04T04:27:15Z" name="AfterClass" finished-at="2022-09-04T04:27:16Z" duration-ms="659" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,843] OS name = windows 10
+<br>]]>
+            </line>
+            <line>
+              <![CDATA[[INFO ] [2022-09-04 11:27:15,844] Driver instance name = windows 10
+<br>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- AfterClass -->
+      </class> <!-- com.nopcommerce.register.Register_Account -->
+    </test> <!-- Run on Firefox -->
+  </suite> <!-- User NopCommerce Project -->
+</testng-results>

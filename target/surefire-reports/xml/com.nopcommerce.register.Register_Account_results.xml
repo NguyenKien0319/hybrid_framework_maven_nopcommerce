@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on Firefox"
+           tests="6"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="13.366">
+  <properties />
+  
+  
+            <testcase name="Register_03_Password_less_than_6_characters" time="2.366" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_02_Invalid_Email" time="1.803" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_01_Leave_All_Fields_Blank" time="0.585" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_05_Register_Success" time="3.086" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_04_ConfirmPassword_Not_Match_With_Password" time="2.894" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_06_Email_Already_Registed" time="2.632" classname="com.nopcommerce.register.Register_Account" />
+      
+</testsuite>

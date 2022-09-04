@@ -1,0 +1,733 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-User_NopCommerce_Project" class="navigator-link">
+              <span class="suite-name border-passed">User NopCommerce Project</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-User_NopCommerce_Project" class="navigator-link ">
+                    <span>E:\4- Maven AutomationFramework\src\test\resources\runUserNopcommerceTestCases.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-User_NopCommerce_Project" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-User_NopCommerce_Project" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-User_NopCommerce_Project" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-User_NopCommerce_Project" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-User_NopCommerce_Project" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-User_NopCommerce_Project" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">12 methods,   12 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-User_NopCommerce_Project" class="hide-methods passed suite-User_NopCommerce_Project"> (hide)</a> <!-- hide-methods passed suite-User_NopCommerce_Project -->
+                      <a href="#" panel-name="suite-User_NopCommerce_Project" class="show-methods passed suite-User_NopCommerce_Project"> (show)</a> <!-- show-methods passed suite-User_NopCommerce_Project -->
+                    </span>
+                    <div class="method-list-content passed suite-User_NopCommerce_Project">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.login.Login_Account" class="method navigator-link" hash-for-method="Login_01_Leave_All_Fields_Empty">Login_01_Leave_All_Fields_Empty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.login.Login_Account" class="method navigator-link" hash-for-method="Login_02_Invalid_Email">Login_02_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.login.Login_Account" class="method navigator-link" hash-for-method="Login_03_Email_Not_Registered">Login_03_Email_Not_Registered</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.login.Login_Account" class="method navigator-link" hash-for-method="Login_04_Leave_Password_Blank">Login_04_Leave_Password_Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.login.Login_Account" class="method navigator-link" hash-for-method="Login_05_Input_Incorrect_Password">Login_05_Input_Incorrect_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.login.Login_Account" class="method navigator-link" hash-for-method="Login_06_Login_Success">Login_06_Login_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.register.Register_Account" class="method navigator-link" hash-for-method="Register_01_Leave_All_Fields_Blank">Register_01_Leave_All_Fields_Blank</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.register.Register_Account" class="method navigator-link" hash-for-method="Register_02_Invalid_Email">Register_02_Invalid_Email</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.register.Register_Account" class="method navigator-link" hash-for-method="Register_03_Password_less_than_6_characters">Register_03_Password_less_than_6_characters</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.register.Register_Account" class="method navigator-link" hash-for-method="Register_04_ConfirmPassword_Not_Match_With_Password">Register_04_ConfirmPassword_Not_Match_With_Password</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.register.Register_Account" class="method navigator-link" hash-for-method="Register_05_Register_Success">Register_05_Register_Success</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-User_NopCommerce_Project" title="com.nopcommerce.register.Register_Account" class="method navigator-link" hash-for-method="Register_06_Email_Already_Registed">Register_06_Email_Already_Registed</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-User_NopCommerce_Project -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-User_NopCommerce_Project" class="panel User_NopCommerce_Project">
+          <div class="suite-User_NopCommerce_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.login.Login_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_01_Leave_All_Fields_Empty">
+                  </a> <!-- Login_01_Leave_All_Fields_Empty -->
+                  <span class="method-name">Login_01_Leave_All_Fields_Empty</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_02_Invalid_Email">
+                  </a> <!-- Login_02_Invalid_Email -->
+                  <span class="method-name">Login_02_Invalid_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_03_Email_Not_Registered">
+                  </a> <!-- Login_03_Email_Not_Registered -->
+                  <span class="method-name">Login_03_Email_Not_Registered</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_04_Leave_Password_Blank">
+                  </a> <!-- Login_04_Leave_Password_Blank -->
+                  <span class="method-name">Login_04_Leave_Password_Blank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_05_Input_Incorrect_Password">
+                  </a> <!-- Login_05_Input_Incorrect_Password -->
+                  <span class="method-name">Login_05_Input_Incorrect_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Login_06_Login_Success">
+                  </a> <!-- Login_06_Login_Success -->
+                  <span class="method-name">Login_06_Login_Success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-User_NopCommerce_Project-class-passed -->
+          <div class="suite-User_NopCommerce_Project-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.nopcommerce.register.Register_Account</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_01_Leave_All_Fields_Blank">
+                  </a> <!-- Register_01_Leave_All_Fields_Blank -->
+                  <span class="method-name">Register_01_Leave_All_Fields_Blank</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_02_Invalid_Email">
+                  </a> <!-- Register_02_Invalid_Email -->
+                  <span class="method-name">Register_02_Invalid_Email</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_03_Password_less_than_6_characters">
+                  </a> <!-- Register_03_Password_less_than_6_characters -->
+                  <span class="method-name">Register_03_Password_less_than_6_characters</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_04_ConfirmPassword_Not_Match_With_Password">
+                  </a> <!-- Register_04_ConfirmPassword_Not_Match_With_Password -->
+                  <span class="method-name">Register_04_ConfirmPassword_Not_Match_With_Password</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_05_Register_Success">
+                  </a> <!-- Register_05_Register_Success -->
+                  <span class="method-name">Register_05_Register_Success</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Register_06_Email_Already_Registed">
+                  </a> <!-- Register_06_Email_Already_Registed -->
+                  <span class="method-name">Register_06_Email_Already_Registed</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-User_NopCommerce_Project-class-passed -->
+        </div> <!-- panel User_NopCommerce_Project -->
+        <div panel-name="test-xml-User_NopCommerce_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">E:\4- Maven AutomationFramework\src\test\resources\runUserNopcommerceTestCases.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;User NopCommerce Project&quot;&gt;
+  &lt;parameter name=&quot;url&quot; value=&quot;https://demo.nopcommerce.com/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.MethodListener&quot;/&gt;
+    &lt;listener class-name=&quot;reportConfig.ReportNGListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Run on Firefox&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;FireFox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.nopcommerce.register.Register_Account&quot;/&gt;
+      &lt;class name=&quot;com.nopcommerce.login.Login_Account&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Run on Firefox --&gt;
+&lt;/suite&gt; &lt;!-- User NopCommerce Project --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-User_NopCommerce_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for User NopCommerce Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Run on Firefox (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-User_NopCommerce_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for User NopCommerce Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-User_NopCommerce_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for User NopCommerce Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_User_NopCommerce_Project');
+function tableData_User_NopCommerce_Project() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(12);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Register_05_Register_Success')
+data.setCell(0, 2, 'com.nopcommerce.register.Register_Account')
+data.setCell(0, 3, 2409);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Register_04_ConfirmPassword_Not_Match_With_Password')
+data.setCell(1, 2, 'com.nopcommerce.register.Register_Account')
+data.setCell(1, 3, 2389);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Register_02_Invalid_Email')
+data.setCell(2, 2, 'com.nopcommerce.register.Register_Account')
+data.setCell(2, 3, 1925);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Register_06_Email_Already_Registed')
+data.setCell(3, 2, 'com.nopcommerce.register.Register_Account')
+data.setCell(3, 3, 1893);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Register_03_Password_less_than_6_characters')
+data.setCell(4, 2, 'com.nopcommerce.register.Register_Account')
+data.setCell(4, 3, 1890);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Login_03_Email_Not_Registered')
+data.setCell(5, 2, 'com.nopcommerce.login.Login_Account')
+data.setCell(5, 3, 1503);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Login_02_Invalid_Email')
+data.setCell(6, 2, 'com.nopcommerce.login.Login_Account')
+data.setCell(6, 3, 826);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Login_06_Login_Success')
+data.setCell(7, 2, 'com.nopcommerce.login.Login_Account')
+data.setCell(7, 3, 774);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Register_01_Leave_All_Fields_Blank')
+data.setCell(8, 2, 'com.nopcommerce.register.Register_Account')
+data.setCell(8, 3, 616);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Login_05_Input_Incorrect_Password')
+data.setCell(9, 2, 'com.nopcommerce.login.Login_Account')
+data.setCell(9, 3, 490);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'Login_04_Leave_Password_Blank')
+data.setCell(10, 2, 'com.nopcommerce.login.Login_Account')
+data.setCell(10, 3, 437);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'Login_01_Leave_All_Fields_Empty')
+data.setCell(11, 2, 'com.nopcommerce.login.Login_Account')
+data.setCell(11, 3, 291);
+window.suiteTableData['User_NopCommerce_Project']= { tableData: data, tableDiv: 'times-div-User_NopCommerce_Project'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 15 seconds</span>
+              <div id="times-div-User_NopCommerce_Project">
+              </div> <!-- times-div-User_NopCommerce_Project -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-User_NopCommerce_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for User NopCommerce Project</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Register_04_ConfirmPassword_Not_Match_With_Password</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:09,145] Register_03 - Step_01: Refresh Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:10,228] Register_03 - Step_02: Select Radio button: 'Male'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:10,478] Register_03 - Step_03: Input FirstName: 'Automation'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:10,537] Register_03 - Step_04: Input LastName: 'Testing'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:10,583] Register_03 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:10,638] Register_03 - Step_06: Input password: '123456'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:10,680] Register_03 - Step_07: Input confirm password: 'Automation'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:10,728] Register_02 - Step_08: Click to 'Register' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:11,483] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:11,531]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Register_02_Invalid_Email</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:05,305] Register_01 - Step_01: Refresh page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:06,397] Register_01 - Step_02: Select Radio button: 'Male'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:06,664] Register_01 - Step_03: Input FirstName: 'Automation'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:06,727] Register_01 - Step_04: Input LastName: 'Testing'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:06,772] Register_01 - Step_05: Input invalid email: 'testing'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:06,818] Register_01 - Step_06: Input password: '123456'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:06,864] Register_01 - Step_07: Input confirm password: '123456'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:06,916] Register_01 - Step_08: Click to 'Register' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:07,176] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:07,226]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_01_Leave_All_Fields_Empty</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 00: Open LoginPage
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 01: Click to Login Button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:19,976] Login_01 - Step 02: Verify error message displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:20,010]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_06_Login_Success</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:23,280] Login_06 - Step 01: Input valid Email 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:23,331] Login_06 - Step 02: Input valid Password
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:23,367] Login_06 - Step 03: Click Login button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:24,015] Login_06 - Step 04: Open HomePage
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:24,016] Login_06 - Step 04: Verify Logout button displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:24,053]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_03_Email_Not_Registered</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:20,848] Login_03 - Step 01: Refresh Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:21,890] Login_03 - Step 02: Input Email not registered
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:21,940] Login_03 - Step 03: Click Login button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,316] Login_03 - Step 04: Verify error message displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,349]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_05_Input_Incorrect_Password</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,789] Login_05 - Step 01: Input valid Email 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,848] Login_05 - Step 02: Input invalid Password
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,887] Login_05 - Step 03: Click Login button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:23,244] Login_05 - Step 04: Verify error message displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:23,278]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Register_03_Password_less_than_6_characters</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:07,250] Register_02 - Step_01: Refresh Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:08,338] Register_02 - Step_02: Select Radio button: 'Male'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:08,602] Register_02 - Step_03: Input FirstName: 'Automation'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:08,656] Register_02 - Step_04: Input LastName: 'Testing'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:08,705] Register_02 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:08,758] Register_02 - Step_06: Input password: '123'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:08,800] Register_02 - Step_07: Input confirm password: '123'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:08,839] Register_02 - Step_08: Click to 'Register' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:09,094] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:09,137]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Register_01_Leave_All_Fields_Blank</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_01: Open Register Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_02: Click to Register button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:04,983] Register_00 - Step_03: Verify validation error message display
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:05,035]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:05,078]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:05,120]  -------------------------- PASSED -------------------------- 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:05,154]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_02_Invalid_Email</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:20,013] Login_02 - Step 01: Refresh Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:20,499] Login_02 - Step 02: Input valid Email
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:20,550] Login_02 - Step 03: Click Login button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:20,799] Login_02 - Step 04: Verify error message displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:20,838]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Register_05_Register_Success</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:11,540] Register_04 - Step_01: Refresh Page
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:12,627] Register_04 - Step_02: Select Radio button: 'Male'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:12,882] Register_04 - Step_03: Input FirstName: 'Automation'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:12,933] Register_04 - Step_04: Input LastName: 'Testing'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:12,978] Register_04 - Step_05: Input valid email: 'testing304016@hotmail.com'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:13,037] Register_04 - Step_06: Input password: '123456'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:13,076] Register_04 - Step_07: Input confirm password: '123456'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:13,116] Register_04 - Step_08: Click to 'Register' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:13,891] Register_04 - Step_09: Verify register success message displayed 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:13,944]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Register_06_Email_Already_Registed</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:13,948] Register_05 - Step_01: Click to 'Logout' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:14,591] Register_05 - Step_02: Click to 'Register' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:14,962] Register_05 - Step_03: Select Radio button: 'Male'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,222] Register_05 - Step_04: Input FirstName: 'Automation'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,271] Register_05 - Step_05: Input LastName: 'Testing'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,311] Register_05 - Step_06: Input invalid email: 'testing304016@hotmail.com'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,355] Register_05 - Step_07: Input password: '123456'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,399] Register_05 - Step_08: Input confirm password: '123456'
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,438] Register_05 - Step_09: Click to 'Register' button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,810] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:15,839]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">Login_04_Leave_Password_Blank</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,352] Login_04 - Step 01: Input valid Email 
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,401] Login_04 - Step 02: Click Login button
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,760] Login_04 - Step 03: Verify error message displayed
+<br></span>
+                <span class="reporter-method-output">[INFO ] [2022-09-04 11:27:22,787]  -------------------------- PASSED -------------------------- 
+<br></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-User_NopCommerce_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">1 ignored method</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">com.nopcommerce.login.Login_Account</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">deleteAllFilesInReportNGScreenshot</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-User_NopCommerce_Project" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.register.Register_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">deleteAllFilesInReportNGScreenshot</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeClass(FireFox, https://demo.nopcommerce.com/)</span>
+                <span class="method-start">38 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Register_01_Leave_All_Fields_Blank</span>
+                <span class="method-start">6423 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_02_Invalid_Email</span>
+                <span class="method-start">7186 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_03_Password_less_than_6_characters</span>
+                <span class="method-start">9132 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_04_ConfirmPassword_Not_Match_With_Password</span>
+                <span class="method-start">11027 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_05_Register_Success</span>
+                <span class="method-start">13420 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Register_06_Email_Already_Registed</span>
+                <span class="method-start">15831 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">AfterClass</span>
+                <span class="method-start">17727 ms</span>
+              </div> <!-- configuration-class after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.nopcommerce.login.Login_Account</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">BeforeClass(FireFox, https://demo.nopcommerce.com/)</span>
+                <span class="method-start">18387 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">Login_01_Leave_All_Fields_Empty</span>
+                <span class="method-start">21605 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_02_Invalid_Email</span>
+                <span class="method-start">21897 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_03_Email_Not_Registered</span>
+                <span class="method-start">22731 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_04_Leave_Password_Blank</span>
+                <span class="method-start">24235 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_05_Input_Incorrect_Password</span>
+                <span class="method-start">24673 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">Login_06_Login_Success</span>
+                <span class="method-start">25164 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">AfterClass</span>
+                <span class="method-start">25939 ms</span>
+              </div> <!-- configuration-class after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

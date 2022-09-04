@@ -1,0 +1,385 @@
+<html>
+<head>
+<title>TestNG:  Run on Firefox</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Run on Firefox</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>12/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Sun Sep 04 11:26:58 ICT 2022</td>
+</tr>
+<tr><td>Total time:</td><td>26 seconds (26701 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.nopcommerce.login.Login_Account.Login_01_Leave_All_Fields_Empty()'><b>Login_01_Leave_All_Fields_Empty</b><br>Test class: com.nopcommerce.login.Login_Account<br/>
+<a href="#Output-36635755" onClick='toggleBox("Output-36635755", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-36635755" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-36635755">
+[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 00: Open LoginPage
+<br><br/>
+[INFO ] [2022-09-04 11:27:19,723] Login_01 - Step 01: Click to Login Button
+<br><br/>
+[INFO ] [2022-09-04 11:27:19,976] Login_01 - Step 02: Verify error message displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:20,010]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.login.Login_Account@30a7c98f</td></tr>
+<tr>
+<td title='com.nopcommerce.login.Login_Account.Login_02_Invalid_Email()'><b>Login_02_Invalid_Email</b><br>Test class: com.nopcommerce.login.Login_Account<br/>
+<a href="#Output-486178528" onClick='toggleBox("Output-486178528", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-486178528" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-486178528">
+[INFO ] [2022-09-04 11:27:20,013] Login_02 - Step 01: Refresh Page
+<br><br/>
+[INFO ] [2022-09-04 11:27:20,499] Login_02 - Step 02: Input valid Email
+<br><br/>
+[INFO ] [2022-09-04 11:27:20,550] Login_02 - Step 03: Click Login button
+<br><br/>
+[INFO ] [2022-09-04 11:27:20,799] Login_02 - Step 04: Verify error message displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:20,838]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.login.Login_Account@30a7c98f</td></tr>
+<tr>
+<td title='com.nopcommerce.login.Login_Account.Login_03_Email_Not_Registered()'><b>Login_03_Email_Not_Registered</b><br>Test class: com.nopcommerce.login.Login_Account<br/>
+<a href="#Output-1591581519" onClick='toggleBox("Output-1591581519", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1591581519" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1591581519">
+[INFO ] [2022-09-04 11:27:20,848] Login_03 - Step 01: Refresh Page
+<br><br/>
+[INFO ] [2022-09-04 11:27:21,890] Login_03 - Step 02: Input Email not registered
+<br><br/>
+[INFO ] [2022-09-04 11:27:21,940] Login_03 - Step 03: Click Login button
+<br><br/>
+[INFO ] [2022-09-04 11:27:22,316] Login_03 - Step 04: Verify error message displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:22,349]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.login.Login_Account@30a7c98f</td></tr>
+<tr>
+<td title='com.nopcommerce.login.Login_Account.Login_04_Leave_Password_Blank()'><b>Login_04_Leave_Password_Blank</b><br>Test class: com.nopcommerce.login.Login_Account<br/>
+<a href="#Output-208157941" onClick='toggleBox("Output-208157941", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-208157941" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-208157941">
+[INFO ] [2022-09-04 11:27:22,352] Login_04 - Step 01: Input valid Email 
+<br><br/>
+[INFO ] [2022-09-04 11:27:22,401] Login_04 - Step 02: Click Login button
+<br><br/>
+[INFO ] [2022-09-04 11:27:22,760] Login_04 - Step 03: Verify error message displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:22,787]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.login.Login_Account@30a7c98f</td></tr>
+<tr>
+<td title='com.nopcommerce.login.Login_Account.Login_05_Input_Incorrect_Password()'><b>Login_05_Input_Incorrect_Password</b><br>Test class: com.nopcommerce.login.Login_Account<br/>
+<a href="#Output-1526030912" onClick='toggleBox("Output-1526030912", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1526030912" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1526030912">
+[INFO ] [2022-09-04 11:27:22,789] Login_05 - Step 01: Input valid Email 
+<br><br/>
+[INFO ] [2022-09-04 11:27:22,848] Login_05 - Step 02: Input invalid Password
+<br><br/>
+[INFO ] [2022-09-04 11:27:22,887] Login_05 - Step 03: Click Login button
+<br><br/>
+[INFO ] [2022-09-04 11:27:23,244] Login_05 - Step 04: Verify error message displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:23,278]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.login.Login_Account@30a7c98f</td></tr>
+<tr>
+<td title='com.nopcommerce.login.Login_Account.Login_06_Login_Success()'><b>Login_06_Login_Success</b><br>Test class: com.nopcommerce.login.Login_Account<br/>
+<a href="#Output-215618634" onClick='toggleBox("Output-215618634", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-215618634" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-215618634">
+[INFO ] [2022-09-04 11:27:23,280] Login_06 - Step 01: Input valid Email 
+<br><br/>
+[INFO ] [2022-09-04 11:27:23,331] Login_06 - Step 02: Input valid Password
+<br><br/>
+[INFO ] [2022-09-04 11:27:23,367] Login_06 - Step 03: Click Login button
+<br><br/>
+[INFO ] [2022-09-04 11:27:24,015] Login_06 - Step 04: Open HomePage
+<br><br/>
+[INFO ] [2022-09-04 11:27:24,016] Login_06 - Step 04: Verify Logout button displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:24,053]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.login.Login_Account@30a7c98f</td></tr>
+<tr>
+<td title='com.nopcommerce.register.Register_Account.Register_01_Leave_All_Fields_Blank()'><b>Register_01_Leave_All_Fields_Blank</b><br>Test class: com.nopcommerce.register.Register_Account<br/>
+<a href="#Output-626972900" onClick='toggleBox("Output-626972900", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-626972900" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-626972900">
+[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_01: Open Register Page
+<br><br/>
+[INFO ] [2022-09-04 11:27:04,703] Register_00 - Step_02: Click to Register button
+<br><br/>
+[INFO ] [2022-09-04 11:27:04,983] Register_00 - Step_03: Verify validation error message display
+<br><br/>
+[INFO ] [2022-09-04 11:27:05,035]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-09-04 11:27:05,078]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-09-04 11:27:05,120]  -------------------------- PASSED -------------------------- 
+<br><br/>
+[INFO ] [2022-09-04 11:27:05,154]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.nopcommerce.register.Register_Account@34fe326d</td></tr>
+<tr>
+<td title='com.nopcommerce.register.Register_Account.Register_02_Invalid_Email()'><b>Register_02_Invalid_Email</b><br>Test class: com.nopcommerce.register.Register_Account<br/>
+<a href="#Output-1870274778" onClick='toggleBox("Output-1870274778", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1870274778" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1870274778">
+[INFO ] [2022-09-04 11:27:05,305] Register_01 - Step_01: Refresh page
+<br><br/>
+[INFO ] [2022-09-04 11:27:06,397] Register_01 - Step_02: Select Radio button: 'Male'
+<br><br/>
+[INFO ] [2022-09-04 11:27:06,664] Register_01 - Step_03: Input FirstName: 'Automation'
+<br><br/>
+[INFO ] [2022-09-04 11:27:06,727] Register_01 - Step_04: Input LastName: 'Testing'
+<br><br/>
+[INFO ] [2022-09-04 11:27:06,772] Register_01 - Step_05: Input invalid email: 'testing'
+<br><br/>
+[INFO ] [2022-09-04 11:27:06,818] Register_01 - Step_06: Input password: '123456'
+<br><br/>
+[INFO ] [2022-09-04 11:27:06,864] Register_01 - Step_07: Input confirm password: '123456'
+<br><br/>
+[INFO ] [2022-09-04 11:27:06,916] Register_01 - Step_08: Click to 'Register' button
+<br><br/>
+[INFO ] [2022-09-04 11:27:07,176] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:07,226]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.register.Register_Account@34fe326d</td></tr>
+<tr>
+<td title='com.nopcommerce.register.Register_Account.Register_03_Password_less_than_6_characters()'><b>Register_03_Password_less_than_6_characters</b><br>Test class: com.nopcommerce.register.Register_Account<br/>
+<a href="#Output-1450133081" onClick='toggleBox("Output-1450133081", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1450133081" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1450133081">
+[INFO ] [2022-09-04 11:27:07,250] Register_02 - Step_01: Refresh Page
+<br><br/>
+[INFO ] [2022-09-04 11:27:08,338] Register_02 - Step_02: Select Radio button: 'Male'
+<br><br/>
+[INFO ] [2022-09-04 11:27:08,602] Register_02 - Step_03: Input FirstName: 'Automation'
+<br><br/>
+[INFO ] [2022-09-04 11:27:08,656] Register_02 - Step_04: Input LastName: 'Testing'
+<br><br/>
+[INFO ] [2022-09-04 11:27:08,705] Register_02 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br><br/>
+[INFO ] [2022-09-04 11:27:08,758] Register_02 - Step_06: Input password: '123'
+<br><br/>
+[INFO ] [2022-09-04 11:27:08,800] Register_02 - Step_07: Input confirm password: '123'
+<br><br/>
+[INFO ] [2022-09-04 11:27:08,839] Register_02 - Step_08: Click to 'Register' button
+<br><br/>
+[INFO ] [2022-09-04 11:27:09,094] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:09,137]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.register.Register_Account@34fe326d</td></tr>
+<tr>
+<td title='com.nopcommerce.register.Register_Account.Register_04_ConfirmPassword_Not_Match_With_Password()'><b>Register_04_ConfirmPassword_Not_Match_With_Password</b><br>Test class: com.nopcommerce.register.Register_Account<br/>
+<a href="#Output-1807899330" onClick='toggleBox("Output-1807899330", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1807899330" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1807899330">
+[INFO ] [2022-09-04 11:27:09,145] Register_03 - Step_01: Refresh Page
+<br><br/>
+[INFO ] [2022-09-04 11:27:10,228] Register_03 - Step_02: Select Radio button: 'Male'
+<br><br/>
+[INFO ] [2022-09-04 11:27:10,478] Register_03 - Step_03: Input FirstName: 'Automation'
+<br><br/>
+[INFO ] [2022-09-04 11:27:10,537] Register_03 - Step_04: Input LastName: 'Testing'
+<br><br/>
+[INFO ] [2022-09-04 11:27:10,583] Register_03 - Step_05: Input invalid email: 'testing304016@hotmail.com'
+<br><br/>
+[INFO ] [2022-09-04 11:27:10,638] Register_03 - Step_06: Input password: '123456'
+<br><br/>
+[INFO ] [2022-09-04 11:27:10,680] Register_03 - Step_07: Input confirm password: 'Automation'
+<br><br/>
+[INFO ] [2022-09-04 11:27:10,728] Register_02 - Step_08: Click to 'Register' button
+<br><br/>
+[INFO ] [2022-09-04 11:27:11,483] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:11,531]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nopcommerce.register.Register_Account@34fe326d</td></tr>
+<tr>
+<td title='com.nopcommerce.register.Register_Account.Register_05_Register_Success()'><b>Register_05_Register_Success</b><br>Test class: com.nopcommerce.register.Register_Account<br/>
+<a href="#Output-2000688092" onClick='toggleBox("Output-2000688092", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2000688092" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2000688092">
+[INFO ] [2022-09-04 11:27:11,540] Register_04 - Step_01: Refresh Page
+<br><br/>
+[INFO ] [2022-09-04 11:27:12,627] Register_04 - Step_02: Select Radio button: 'Male'
+<br><br/>
+[INFO ] [2022-09-04 11:27:12,882] Register_04 - Step_03: Input FirstName: 'Automation'
+<br><br/>
+[INFO ] [2022-09-04 11:27:12,933] Register_04 - Step_04: Input LastName: 'Testing'
+<br><br/>
+[INFO ] [2022-09-04 11:27:12,978] Register_04 - Step_05: Input valid email: 'testing304016@hotmail.com'
+<br><br/>
+[INFO ] [2022-09-04 11:27:13,037] Register_04 - Step_06: Input password: '123456'
+<br><br/>
+[INFO ] [2022-09-04 11:27:13,076] Register_04 - Step_07: Input confirm password: '123456'
+<br><br/>
+[INFO ] [2022-09-04 11:27:13,116] Register_04 - Step_08: Click to 'Register' button
+<br><br/>
+[INFO ] [2022-09-04 11:27:13,891] Register_04 - Step_09: Verify register success message displayed 
+<br><br/>
+[INFO ] [2022-09-04 11:27:13,944]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>2</td>
+<td>com.nopcommerce.register.Register_Account@34fe326d</td></tr>
+<tr>
+<td title='com.nopcommerce.register.Register_Account.Register_06_Email_Already_Registed()'><b>Register_06_Email_Already_Registed</b><br>Test class: com.nopcommerce.register.Register_Account<br/>
+<a href="#Output-577828237" onClick='toggleBox("Output-577828237", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-577828237" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-577828237">
+[INFO ] [2022-09-04 11:27:13,948] Register_05 - Step_01: Click to 'Logout' button
+<br><br/>
+[INFO ] [2022-09-04 11:27:14,591] Register_05 - Step_02: Click to 'Register' button
+<br><br/>
+[INFO ] [2022-09-04 11:27:14,962] Register_05 - Step_03: Select Radio button: 'Male'
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,222] Register_05 - Step_04: Input FirstName: 'Automation'
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,271] Register_05 - Step_05: Input LastName: 'Testing'
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,311] Register_05 - Step_06: Input invalid email: 'testing304016@hotmail.com'
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,355] Register_05 - Step_07: Input password: '123456'
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,399] Register_05 - Step_08: Input confirm password: '123456'
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,438] Register_05 - Step_09: Click to 'Register' button
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,810] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+<br><br/>
+[INFO ] [2022-09-04 11:27:15,839]  -------------------------- PASSED -------------------------- 
+<br><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>com.nopcommerce.register.Register_Account@34fe326d</td></tr>
+</table><p>
+</body>
+</html>

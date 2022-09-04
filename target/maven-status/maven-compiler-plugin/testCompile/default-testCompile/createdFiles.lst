@@ -1,0 +1,5 @@
+com\nopcommerce\login\Login_Account.class
+com\nopcommerce\register\Register_Account.class
+com\nopcommerce\search\Search_AdvancedSearch.class
+com\nopcommerce\myaccount\My_Account.class
+com\nomcommerce\common\Common_01_Login.class

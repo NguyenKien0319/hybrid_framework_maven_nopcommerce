@@ -1,0 +1,495 @@
+[INFO ] [2022-09-04 12:07:07,564] ---------- START delete file in folder ----------
+[INFO ] [2022-09-04 12:07:07,565] ---------- END delete file in folder ----------
+[INFO ] [2022-09-04 12:07:07,586] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 12:07:12,578] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 12:07:12,586] Pre-condition - 02: Navigate to RegisterPage
+[INFO ] [2022-09-04 12:07:13,902] Register_00 - Step_01: Open Register Page
+[INFO ] [2022-09-04 12:07:13,902] Register_00 - Step_02: Click to Register button
+[INFO ] [2022-09-04 12:07:14,192] Register_00 - Step_03: Verify validation error message display
+[INFO ] [2022-09-04 12:07:14,250]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:14,297]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:14,347]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:14,388]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:14,540] Register_01 - Step_01: Refresh page
+[INFO ] [2022-09-04 12:07:15,609] Register_01 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:07:15,870] Register_01 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:07:15,948] Register_01 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:07:15,998] Register_01 - Step_05: Input invalid email: 'testing'
+[INFO ] [2022-09-04 12:07:16,044] Register_01 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:07:16,089] Register_01 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:07:16,136] Register_01 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:07:16,383] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+[INFO ] [2022-09-04 12:07:16,432]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:16,448] Register_02 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:07:17,548] Register_02 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:07:17,804] Register_02 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:07:17,860] Register_02 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:07:17,913] Register_02 - Step_05: Input invalid email: 'testing455880@hotmail.com'
+[INFO ] [2022-09-04 12:07:17,973] Register_02 - Step_06: Input password: '123'
+[INFO ] [2022-09-04 12:07:18,029] Register_02 - Step_07: Input confirm password: '123'
+[INFO ] [2022-09-04 12:07:18,073] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:07:18,329] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+[INFO ] [2022-09-04 12:07:18,369]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:18,371] Register_03 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:07:19,434] Register_03 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:07:19,691] Register_03 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:07:19,746] Register_03 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:07:19,794] Register_03 - Step_05: Input invalid email: 'testing455880@hotmail.com'
+[INFO ] [2022-09-04 12:07:19,849] Register_03 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:07:19,893] Register_03 - Step_07: Input confirm password: 'Automation'
+[INFO ] [2022-09-04 12:07:19,943] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:07:20,683] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+[INFO ] [2022-09-04 12:07:20,717]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:20,721] Register_04 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:07:21,780] Register_04 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:07:22,035] Register_04 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:07:22,093] Register_04 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:07:22,137] Register_04 - Step_05: Input valid email: 'testing455880@hotmail.com'
+[INFO ] [2022-09-04 12:07:22,197] Register_04 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:07:22,241] Register_04 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:07:22,283] Register_04 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:07:23,037] Register_04 - Step_09: Verify register success message displayed 
+[INFO ] [2022-09-04 12:07:23,075]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:23,077] Register_05 - Step_01: Click to 'Logout' button
+[INFO ] [2022-09-04 12:07:23,741] Register_05 - Step_02: Click to 'Register' button
+[INFO ] [2022-09-04 12:07:24,120] Register_05 - Step_03: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:07:24,377] Register_05 - Step_04: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:07:24,429] Register_05 - Step_05: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:07:24,478] Register_05 - Step_06: Input invalid email: 'testing455880@hotmail.com'
+[INFO ] [2022-09-04 12:07:24,524] Register_05 - Step_07: Input password: '123456'
+[INFO ] [2022-09-04 12:07:24,565] Register_05 - Step_08: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:07:24,606] Register_05 - Step_09: Click to 'Register' button
+[INFO ] [2022-09-04 12:07:24,970] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+[INFO ] [2022-09-04 12:07:24,997]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:25,000] OS name = windows 10
+[INFO ] [2022-09-04 12:07:25,001] Driver instance name = windows 10
+[INFO ] [2022-09-04 12:07:25,636] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 12:07:28,173] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 12:07:28,173] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-09-04 12:07:29,364] Login_01 - Step 00: Open LoginPage
+[INFO ] [2022-09-04 12:07:29,364] Login_01 - Step 01: Click to Login Button
+[INFO ] [2022-09-04 12:07:29,616] Login_01 - Step 02: Verify error message displayed
+[INFO ] [2022-09-04 12:07:29,657]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:29,658] Login_02 - Step 01: Refresh Page
+[INFO ] [2022-09-04 12:07:30,756] Login_02 - Step 02: Input valid Email
+[INFO ] [2022-09-04 12:07:30,798] Login_02 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:07:31,048] Login_02 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:07:31,086]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:31,094] Login_03 - Step 01: Refresh Page
+[INFO ] [2022-09-04 12:07:31,578] Login_03 - Step 02: Input Email not registered
+[INFO ] [2022-09-04 12:07:31,628] Login_03 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:07:31,995] Login_03 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:07:32,028]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:32,030] Login_04 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:07:32,087] Login_04 - Step 02: Click Login button
+[INFO ] [2022-09-04 12:07:32,454] Login_04 - Step 03: Verify error message displayed
+[INFO ] [2022-09-04 12:07:32,492]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:32,494] Login_05 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:07:32,545] Login_05 - Step 02: Input invalid Password
+[INFO ] [2022-09-04 12:07:32,582] Login_05 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:07:32,947] Login_05 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:07:32,979]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:32,981] Login_06 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:07:33,029] Login_06 - Step 02: Input valid Password
+[INFO ] [2022-09-04 12:07:33,066] Login_06 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:07:33,706] Login_06 - Step 04: Open HomePage
+[INFO ] [2022-09-04 12:07:33,706] Login_06 - Step 04: Verify Logout button displayed
+[INFO ] [2022-09-04 12:07:33,748]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:07:33,749] OS name = windows 10
+[INFO ] [2022-09-04 12:07:33,749] Driver instance name = windows 10
+[INFO ] [2022-09-04 12:12:32,019] ---------- START delete file in folder ----------
+[INFO ] [2022-09-04 12:12:32,020] ---------- END delete file in folder ----------
+[INFO ] [2022-09-04 12:12:32,035] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 12:12:37,844] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 12:12:37,860] Pre-condition - 02: Navigate to RegisterPage
+[INFO ] [2022-09-04 12:12:39,151] Register_00 - Step_01: Open Register Page
+[INFO ] [2022-09-04 12:12:39,151] Register_00 - Step_02: Click to Register button
+[INFO ] [2022-09-04 12:12:39,462] Register_00 - Step_03: Verify validation error message display
+[INFO ] [2022-09-04 12:12:39,550]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:39,627]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:39,687]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:39,753]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:39,868] Register_01 - Step_01: Refresh page
+[INFO ] [2022-09-04 12:12:40,988] Register_01 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:12:41,278] Register_01 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:12:41,384] Register_01 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:12:41,488] Register_01 - Step_05: Input invalid email: 'testing'
+[INFO ] [2022-09-04 12:12:41,581] Register_01 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:12:41,675] Register_01 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:12:41,769] Register_01 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:12:42,067] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+[INFO ] [2022-09-04 12:12:42,156]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:42,162] Register_02 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:12:43,265] Register_02 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:12:43,567] Register_02 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:12:43,672] Register_02 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:12:43,787] Register_02 - Step_05: Input invalid email: 'testing227937@hotmail.com'
+[INFO ] [2022-09-04 12:12:43,910] Register_02 - Step_06: Input password: '123'
+[INFO ] [2022-09-04 12:12:44,013] Register_02 - Step_07: Input confirm password: '123'
+[INFO ] [2022-09-04 12:12:44,101] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:12:44,406] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+[INFO ] [2022-09-04 12:12:44,496]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:44,500] Register_03 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:12:45,655] Register_03 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:12:45,953] Register_03 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:12:46,084] Register_03 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:12:46,180] Register_03 - Step_05: Input invalid email: 'testing227937@hotmail.com'
+[INFO ] [2022-09-04 12:12:46,278] Register_03 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:12:46,382] Register_03 - Step_07: Input confirm password: 'Automation'
+[INFO ] [2022-09-04 12:12:46,475] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:12:47,243] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+[INFO ] [2022-09-04 12:12:47,313]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:47,318] Register_04 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:12:48,417] Register_04 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:12:48,717] Register_04 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:12:48,822] Register_04 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:12:48,917] Register_04 - Step_05: Input valid email: 'testing227937@hotmail.com'
+[INFO ] [2022-09-04 12:12:49,048] Register_04 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:12:49,150] Register_04 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:12:49,255] Register_04 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:12:50,152] Register_04 - Step_09: Verify register success message displayed 
+[INFO ] [2022-09-04 12:12:50,219]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:50,226] Register_05 - Step_01: Click to 'Logout' button
+[INFO ] [2022-09-04 12:12:50,913] Register_05 - Step_02: Click to 'Register' button
+[INFO ] [2022-09-04 12:12:51,314] Register_05 - Step_03: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:12:51,606] Register_05 - Step_04: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:12:51,707] Register_05 - Step_05: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:12:51,802] Register_05 - Step_06: Input invalid email: 'testing227937@hotmail.com'
+[INFO ] [2022-09-04 12:12:51,902] Register_05 - Step_07: Input password: '123456'
+[INFO ] [2022-09-04 12:12:52,005] Register_05 - Step_08: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:12:52,106] Register_05 - Step_09: Click to 'Register' button
+[INFO ] [2022-09-04 12:12:52,505] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+[INFO ] [2022-09-04 12:12:52,556]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:52,559] OS name = windows 10
+[INFO ] [2022-09-04 12:12:52,560] Driver instance name = windows 10
+[INFO ] [2022-09-04 12:12:53,356] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 12:12:56,880] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 12:12:56,880] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-09-04 12:12:57,453] Login_01 - Step 00: Open LoginPage
+[INFO ] [2022-09-04 12:12:57,453] Login_01 - Step 01: Click to Login Button
+[INFO ] [2022-09-04 12:12:57,754] Login_01 - Step 02: Verify error message displayed
+[INFO ] [2022-09-04 12:12:57,823]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:57,827] Login_02 - Step 01: Refresh Page
+[INFO ] [2022-09-04 12:12:58,349] Login_02 - Step 02: Input valid Email
+[INFO ] [2022-09-04 12:12:58,440] Login_02 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:12:58,711] Login_02 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:12:58,781]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:12:58,784] Login_03 - Step 01: Refresh Page
+[INFO ] [2022-09-04 12:12:59,843] Login_03 - Step 02: Input Email not registered
+[INFO ] [2022-09-04 12:12:59,942] Login_03 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:13:00,344] Login_03 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:13:00,387]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:13:00,389] Login_04 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:13:00,488] Login_04 - Step 02: Click Login button
+[INFO ] [2022-09-04 12:13:00,894] Login_04 - Step 03: Verify error message displayed
+[INFO ] [2022-09-04 12:13:00,944]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:13:00,946] Login_05 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:13:01,041] Login_05 - Step 02: Input invalid Password
+[INFO ] [2022-09-04 12:13:01,135] Login_05 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:13:01,521] Login_05 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:13:01,564]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:13:01,566] Login_06 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:13:01,667] Login_06 - Step 02: Input valid Password
+[INFO ] [2022-09-04 12:13:01,770] Login_06 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:13:02,448] Login_06 - Step 04: Open HomePage
+[INFO ] [2022-09-04 12:13:02,448] Login_06 - Step 04: Verify Logout button displayed
+[INFO ] [2022-09-04 12:13:02,527]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:13:02,529] OS name = windows 10
+[INFO ] [2022-09-04 12:13:02,529] Driver instance name = windows 10
+[INFO ] [2022-09-04 12:30:35,239] ---------- START delete file in folder ----------
+[INFO ] [2022-09-04 12:30:35,240] ---------- END delete file in folder ----------
+[INFO ] [2022-09-04 12:30:35,254] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 12:30:47,833] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 12:30:47,844] Pre-condition - 02: Navigate to RegisterPage
+[INFO ] [2022-09-04 12:30:49,317] Register_00 - Step_01: Open Register Page
+[INFO ] [2022-09-04 12:30:49,317] Register_00 - Step_02: Click to Register button
+[INFO ] [2022-09-04 12:30:49,658] Register_00 - Step_03: Verify validation error message display
+[INFO ] [2022-09-04 12:30:49,760]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:30:49,836]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:30:49,897]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:30:49,978]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:30:50,142] Register_01 - Step_01: Refresh page
+[INFO ] [2022-09-04 12:30:51,319] Register_01 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:30:51,627] Register_01 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:30:51,740] Register_01 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:30:51,851] Register_01 - Step_05: Input invalid email: 'testing'
+[INFO ] [2022-09-04 12:30:51,948] Register_01 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:30:52,049] Register_01 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:30:52,149] Register_01 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:30:52,449] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+[INFO ] [2022-09-04 12:30:52,537]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:30:52,544] Register_02 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:30:53,646] Register_02 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:30:53,939] Register_02 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:30:54,043] Register_02 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:30:54,138] Register_02 - Step_05: Input invalid email: 'testing27124@hotmail.com'
+[INFO ] [2022-09-04 12:30:54,231] Register_02 - Step_06: Input password: '123'
+[INFO ] [2022-09-04 12:30:54,335] Register_02 - Step_07: Input confirm password: '123'
+[INFO ] [2022-09-04 12:30:54,430] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:30:54,715] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+[INFO ] [2022-09-04 12:30:54,774]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:30:54,780] Register_03 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:30:55,886] Register_03 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:30:56,175] Register_03 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:30:56,294] Register_03 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:30:56,389] Register_03 - Step_05: Input invalid email: 'testing27124@hotmail.com'
+[INFO ] [2022-09-04 12:30:56,500] Register_03 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:30:56,603] Register_03 - Step_07: Input confirm password: 'Automation'
+[INFO ] [2022-09-04 12:30:56,697] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:30:57,465] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+[INFO ] [2022-09-04 12:30:57,535]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:30:57,541] Register_04 - Step_01: Refresh Page
+[INFO ] [2022-09-04 12:30:58,047] Register_04 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:30:58,331] Register_04 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:30:58,432] Register_04 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:30:58,531] Register_04 - Step_05: Input valid email: 'testing27124@hotmail.com'
+[INFO ] [2022-09-04 12:30:58,658] Register_04 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 12:30:58,763] Register_04 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:30:58,865] Register_04 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 12:31:00,849] Register_04 - Step_09: Verify register success message displayed 
+[INFO ] [2022-09-04 12:31:00,908]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:00,912] Register_05 - Step_01: Click to 'Logout' button
+[INFO ] [2022-09-04 12:31:01,594] Register_05 - Step_02: Click to 'Register' button
+[INFO ] [2022-09-04 12:31:02,010] Register_05 - Step_03: Select Radio button: 'Male'
+[INFO ] [2022-09-04 12:31:02,305] Register_05 - Step_04: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 12:31:02,412] Register_05 - Step_05: Input LastName: 'Testing'
+[INFO ] [2022-09-04 12:31:02,518] Register_05 - Step_06: Input invalid email: 'testing27124@hotmail.com'
+[INFO ] [2022-09-04 12:31:02,616] Register_05 - Step_07: Input password: '123456'
+[INFO ] [2022-09-04 12:31:02,715] Register_05 - Step_08: Input confirm password: '123456'
+[INFO ] [2022-09-04 12:31:02,808] Register_05 - Step_09: Click to 'Register' button
+[INFO ] [2022-09-04 12:31:03,222] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+[INFO ] [2022-09-04 12:31:03,267]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:03,270] OS name = windows 10
+[INFO ] [2022-09-04 12:31:03,271] Driver instance name = windows 10
+[INFO ] [2022-09-04 12:31:03,956] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 12:31:08,033] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 12:31:08,034] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-09-04 12:31:08,658] Login_01 - Step 00: Open LoginPage
+[INFO ] [2022-09-04 12:31:08,659] Login_01 - Step 01: Click to Login Button
+[INFO ] [2022-09-04 12:31:08,943] Login_01 - Step 02: Verify error message displayed
+[INFO ] [2022-09-04 12:31:09,020]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:09,023] Login_02 - Step 01: Refresh Page
+[INFO ] [2022-09-04 12:31:10,370] Login_02 - Step 02: Input valid Email
+[INFO ] [2022-09-04 12:31:10,468] Login_02 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:31:10,744] Login_02 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:31:10,812]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:10,815] Login_03 - Step 01: Refresh Page
+[INFO ] [2022-09-04 12:31:11,927] Login_03 - Step 02: Input Email not registered
+[INFO ] [2022-09-04 12:31:12,030] Login_03 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:31:12,477] Login_03 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:31:12,520]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:12,523] Login_04 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:31:12,616] Login_04 - Step 02: Click Login button
+[INFO ] [2022-09-04 12:31:13,070] Login_04 - Step 03: Verify error message displayed
+[INFO ] [2022-09-04 12:31:13,120]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:13,122] Login_05 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:31:13,218] Login_05 - Step 02: Input invalid Password
+[INFO ] [2022-09-04 12:31:13,309] Login_05 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:31:13,731] Login_05 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 12:31:13,784]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:13,786] Login_06 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 12:31:13,884] Login_06 - Step 02: Input valid Password
+[INFO ] [2022-09-04 12:31:13,978] Login_06 - Step 03: Click Login button
+[INFO ] [2022-09-04 12:31:14,759] Login_06 - Step 04: Open HomePage
+[INFO ] [2022-09-04 12:31:14,759] Login_06 - Step 04: Verify Logout button displayed
+[INFO ] [2022-09-04 12:31:14,827]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 12:31:14,828] OS name = windows 10
+[INFO ] [2022-09-04 12:31:14,828] Driver instance name = windows 10
+[INFO ] [2022-09-04 13:33:59,041] ---------- START delete file in folder ----------
+[INFO ] [2022-09-04 13:33:59,043] ---------- END delete file in folder ----------
+[INFO ] [2022-09-04 13:33:59,062] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 13:34:05,565] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 13:34:05,576] Pre-condition - 02: Navigate to RegisterPage
+[INFO ] [2022-09-04 13:34:07,113] Register_00 - Step_01: Open Register Page
+[INFO ] [2022-09-04 13:34:07,113] Register_00 - Step_02: Click to Register button
+[INFO ] [2022-09-04 13:34:07,455] Register_00 - Step_03: Verify validation error message display
+[INFO ] [2022-09-04 13:34:07,515]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:07,579]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:07,641]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:07,704]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:07,791] Register_01 - Step_01: Refresh page
+[INFO ] [2022-09-04 13:34:09,008] Register_01 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 13:34:09,321] Register_01 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 13:34:09,438] Register_01 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 13:34:09,539] Register_01 - Step_05: Input invalid email: 'testing'
+[INFO ] [2022-09-04 13:34:09,647] Register_01 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 13:34:09,750] Register_01 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 13:34:09,840] Register_01 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 13:34:10,125] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+[INFO ] [2022-09-04 13:34:10,247]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:10,250] Register_02 - Step_01: Refresh Page
+[INFO ] [2022-09-04 13:34:11,541] Register_02 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 13:34:11,844] Register_02 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 13:34:11,972] Register_02 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 13:34:12,092] Register_02 - Step_05: Input invalid email: 'testing819129@hotmail.com'
+[INFO ] [2022-09-04 13:34:12,206] Register_02 - Step_06: Input password: '123'
+[INFO ] [2022-09-04 13:34:12,317] Register_02 - Step_07: Input confirm password: '123'
+[INFO ] [2022-09-04 13:34:12,417] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 13:34:12,723] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+[INFO ] [2022-09-04 13:34:12,785]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:12,790] Register_03 - Step_01: Refresh Page
+[INFO ] [2022-09-04 13:34:13,398] Register_03 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 13:34:13,701] Register_03 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 13:34:13,803] Register_03 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 13:34:13,899] Register_03 - Step_05: Input invalid email: 'testing819129@hotmail.com'
+[INFO ] [2022-09-04 13:34:14,013] Register_03 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 13:34:14,113] Register_03 - Step_07: Input confirm password: 'Automation'
+[INFO ] [2022-09-04 13:34:14,207] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 13:34:14,968] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+[INFO ] [2022-09-04 13:34:15,058]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:15,061] Register_04 - Step_01: Refresh Page
+[INFO ] [2022-09-04 13:34:16,349] Register_04 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 13:34:16,656] Register_04 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 13:34:16,766] Register_04 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 13:34:16,866] Register_04 - Step_05: Input valid email: 'testing819129@hotmail.com'
+[INFO ] [2022-09-04 13:34:17,003] Register_04 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 13:34:17,120] Register_04 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 13:34:17,229] Register_04 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 13:34:18,221] Register_04 - Step_09: Verify register success message displayed 
+[INFO ] [2022-09-04 13:34:18,294]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:18,296] Register_05 - Step_01: Click to 'Logout' button
+[INFO ] [2022-09-04 13:34:19,026] Register_05 - Step_02: Click to 'Register' button
+[INFO ] [2022-09-04 13:34:19,449] Register_05 - Step_03: Select Radio button: 'Male'
+[INFO ] [2022-09-04 13:34:19,772] Register_05 - Step_04: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 13:34:19,902] Register_05 - Step_05: Input LastName: 'Testing'
+[INFO ] [2022-09-04 13:34:20,006] Register_05 - Step_06: Input invalid email: 'testing819129@hotmail.com'
+[INFO ] [2022-09-04 13:34:20,123] Register_05 - Step_07: Input password: '123456'
+[INFO ] [2022-09-04 13:34:20,221] Register_05 - Step_08: Input confirm password: '123456'
+[INFO ] [2022-09-04 13:34:20,341] Register_05 - Step_09: Click to 'Register' button
+[INFO ] [2022-09-04 13:34:20,829] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+[INFO ] [2022-09-04 13:34:20,877]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:20,879] OS name = windows 10
+[INFO ] [2022-09-04 13:34:20,879] Driver instance name = windows 10
+[INFO ] [2022-09-04 13:34:21,806] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 13:34:26,512] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 13:34:26,512] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-09-04 13:34:27,140] Login_01 - Step 00: Open LoginPage
+[INFO ] [2022-09-04 13:34:27,141] Login_01 - Step 01: Click to Login Button
+[INFO ] [2022-09-04 13:34:27,425] Login_01 - Step 02: Verify error message displayed
+[INFO ] [2022-09-04 13:34:27,492]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:27,495] Login_02 - Step 01: Refresh Page
+[INFO ] [2022-09-04 13:34:28,692] Login_02 - Step 02: Input valid Email
+[INFO ] [2022-09-04 13:34:28,822] Login_02 - Step 03: Click Login button
+[INFO ] [2022-09-04 13:34:29,139] Login_02 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 13:34:29,226]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:29,229] Login_03 - Step 01: Refresh Page
+[INFO ] [2022-09-04 13:34:29,725] Login_03 - Step 02: Input Email not registered
+[INFO ] [2022-09-04 13:34:29,827] Login_03 - Step 03: Click Login button
+[INFO ] [2022-09-04 13:34:30,277] Login_03 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 13:34:30,329]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:30,331] Login_04 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 13:34:30,461] Login_04 - Step 02: Click Login button
+[INFO ] [2022-09-04 13:34:30,925] Login_04 - Step 03: Verify error message displayed
+[INFO ] [2022-09-04 13:34:30,978]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:30,982] Login_05 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 13:34:31,123] Login_05 - Step 02: Input invalid Password
+[INFO ] [2022-09-04 13:34:31,251] Login_05 - Step 03: Click Login button
+[INFO ] [2022-09-04 13:34:31,719] Login_05 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 13:34:31,791]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:31,792] Login_06 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 13:34:31,897] Login_06 - Step 02: Input valid Password
+[INFO ] [2022-09-04 13:34:32,008] Login_06 - Step 03: Click Login button
+[INFO ] [2022-09-04 13:34:33,740] Login_06 - Step 04: Open HomePage
+[INFO ] [2022-09-04 13:34:33,740] Login_06 - Step 04: Verify Logout button displayed
+[INFO ] [2022-09-04 13:34:33,812]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 13:34:33,813] OS name = windows 10
+[INFO ] [2022-09-04 13:34:33,814] Driver instance name = windows 10
+[INFO ] [2022-09-04 14:03:21,540] ---------- START delete file in folder ----------
+[INFO ] [2022-09-04 14:03:21,541] ---------- END delete file in folder ----------
+[INFO ] [2022-09-04 14:03:21,565] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 14:03:27,453] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 14:03:27,462] Pre-condition - 02: Navigate to RegisterPage
+[INFO ] [2022-09-04 14:03:28,774] Register_00 - Step_01: Open Register Page
+[INFO ] [2022-09-04 14:03:28,775] Register_00 - Step_02: Click to Register button
+[INFO ] [2022-09-04 14:03:29,060] Register_00 - Step_03: Verify validation error message display
+[INFO ] [2022-09-04 14:03:29,130]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:29,189]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:29,254]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:29,320]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:29,405] Register_01 - Step_01: Refresh page
+[INFO ] [2022-09-04 14:03:29,980] Register_01 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 14:03:30,282] Register_01 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 14:03:30,389] Register_01 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 14:03:30,498] Register_01 - Step_05: Input invalid email: 'testing'
+[INFO ] [2022-09-04 14:03:30,611] Register_01 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 14:03:30,712] Register_01 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 14:03:30,820] Register_01 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 14:03:31,106] Register_01 - Step_09: Verify errormessage 'Wrong Email' displayed
+[INFO ] [2022-09-04 14:03:31,206]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:31,210] Register_02 - Step_01: Refresh Page
+[INFO ] [2022-09-04 14:03:32,318] Register_02 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 14:03:32,624] Register_02 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 14:03:32,749] Register_02 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 14:03:32,872] Register_02 - Step_05: Input invalid email: 'testing363194@hotmail.com'
+[INFO ] [2022-09-04 14:03:33,003] Register_02 - Step_06: Input password: '123'
+[INFO ] [2022-09-04 14:03:33,117] Register_02 - Step_07: Input confirm password: '123'
+[INFO ] [2022-09-04 14:03:33,207] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 14:03:33,492] Register_02 - Step_09: Verify Error Message 'must have at least 6 characters' displayed
+[INFO ] [2022-09-04 14:03:33,575]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:33,580] Register_03 - Step_01: Refresh Page
+[INFO ] [2022-09-04 14:03:34,774] Register_03 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 14:03:35,078] Register_03 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 14:03:35,186] Register_03 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 14:03:35,307] Register_03 - Step_05: Input invalid email: 'testing363194@hotmail.com'
+[INFO ] [2022-09-04 14:03:35,413] Register_03 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 14:03:35,522] Register_03 - Step_07: Input confirm password: 'Automation'
+[INFO ] [2022-09-04 14:03:35,614] Register_02 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 14:03:36,380] Register_03 - Step_09: Verify that errormessage 'The password and confirmation password do not match.' displayed
+[INFO ] [2022-09-04 14:03:36,470]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:36,474] Register_04 - Step_01: Refresh Page
+[INFO ] [2022-09-04 14:03:37,687] Register_04 - Step_02: Select Radio button: 'Male'
+[INFO ] [2022-09-04 14:03:37,988] Register_04 - Step_03: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 14:03:38,095] Register_04 - Step_04: Input LastName: 'Testing'
+[INFO ] [2022-09-04 14:03:38,226] Register_04 - Step_05: Input valid email: 'testing363194@hotmail.com'
+[INFO ] [2022-09-04 14:03:38,365] Register_04 - Step_06: Input password: '123456'
+[INFO ] [2022-09-04 14:03:38,469] Register_04 - Step_07: Input confirm password: '123456'
+[INFO ] [2022-09-04 14:03:38,589] Register_04 - Step_08: Click to 'Register' button
+[INFO ] [2022-09-04 14:03:39,490] Register_04 - Step_09: Verify register success message displayed 
+[INFO ] [2022-09-04 14:03:39,557]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:39,560] Register_05 - Step_01: Click to 'Logout' button
+[INFO ] [2022-09-04 14:03:40,324] Register_05 - Step_02: Click to 'Register' button
+[INFO ] [2022-09-04 14:03:40,831] Register_05 - Step_03: Select Radio button: 'Male'
+[INFO ] [2022-09-04 14:03:41,131] Register_05 - Step_04: Input FirstName: 'Automation'
+[INFO ] [2022-09-04 14:03:41,256] Register_05 - Step_05: Input LastName: 'Testing'
+[INFO ] [2022-09-04 14:03:41,373] Register_05 - Step_06: Input invalid email: 'testing363194@hotmail.com'
+[INFO ] [2022-09-04 14:03:41,471] Register_05 - Step_07: Input password: '123456'
+[INFO ] [2022-09-04 14:03:41,574] Register_05 - Step_08: Input confirm password: '123456'
+[INFO ] [2022-09-04 14:03:41,674] Register_05 - Step_09: Click to 'Register' button
+[INFO ] [2022-09-04 14:03:42,139] Register_05 - Step_10: Verify Error Message 'The specified email already exists' displayed
+[INFO ] [2022-09-04 14:03:42,191]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:42,194] OS name = windows 10
+[INFO ] [2022-09-04 14:03:42,194] Driver instance name = windows 10
+[INFO ] [2022-09-04 14:03:42,971] Pre-condition: Open browser 'FireFox' with URL: 'https://demo.nopcommerce.com/'
+[INFO ] [2022-09-04 14:03:47,048] Pre-condition - 01: Open Home Page
+[INFO ] [2022-09-04 14:03:47,048] Pre-condition - 02: Navigate to Login Page
+[INFO ] [2022-09-04 14:03:47,722] Login_01 - Step 00: Open LoginPage
+[INFO ] [2022-09-04 14:03:47,722] Login_01 - Step 01: Click to Login Button
+[INFO ] [2022-09-04 14:03:48,004] Login_01 - Step 02: Verify error message displayed
+[INFO ] [2022-09-04 14:03:48,098]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:48,100] Login_02 - Step 01: Refresh Page
+[INFO ] [2022-09-04 14:03:49,241] Login_02 - Step 02: Input valid Email
+[INFO ] [2022-09-04 14:03:49,347] Login_02 - Step 03: Click Login button
+[INFO ] [2022-09-04 14:03:49,658] Login_02 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 14:03:49,729]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:49,731] Login_03 - Step 01: Refresh Page
+[INFO ] [2022-09-04 14:03:50,934] Login_03 - Step 02: Input Email not registered
+[INFO ] [2022-09-04 14:03:51,049] Login_03 - Step 03: Click Login button
+[INFO ] [2022-09-04 14:03:51,486] Login_03 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 14:03:51,543]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:51,545] Login_04 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 14:03:51,645] Login_04 - Step 02: Click Login button
+[INFO ] [2022-09-04 14:03:52,064] Login_04 - Step 03: Verify error message displayed
+[INFO ] [2022-09-04 14:03:52,134]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:52,135] Login_05 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 14:03:52,236] Login_05 - Step 02: Input invalid Password
+[INFO ] [2022-09-04 14:03:52,339] Login_05 - Step 03: Click Login button
+[INFO ] [2022-09-04 14:03:52,833] Login_05 - Step 04: Verify error message displayed
+[INFO ] [2022-09-04 14:03:52,887]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:52,889] Login_06 - Step 01: Input valid Email 
+[INFO ] [2022-09-04 14:03:53,000] Login_06 - Step 02: Input valid Password
+[INFO ] [2022-09-04 14:03:53,091] Login_06 - Step 03: Click Login button
+[INFO ] [2022-09-04 14:03:53,935] Login_06 - Step 04: Open HomePage
+[INFO ] [2022-09-04 14:03:53,935] Login_06 - Step 04: Verify Logout button displayed
+[INFO ] [2022-09-04 14:03:54,001]  -------------------------- PASSED -------------------------- 
+[INFO ] [2022-09-04 14:03:54,002] OS name = windows 10
+[INFO ] [2022-09-04 14:03:54,002] Driver instance name = windows 10

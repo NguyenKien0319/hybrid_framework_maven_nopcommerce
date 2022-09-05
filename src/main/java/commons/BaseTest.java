@@ -9,8 +9,10 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.Assert;
 import org.testng.Reporter;
 import org.testng.annotations.BeforeTest;
@@ -40,6 +42,16 @@ public class BaseTest {
 		} else if (browser.equals(BROWSER.EDGE_CHROMIUM)) {
 			WebDriverManager.edgedriver().setup();
 			driver = new EdgeDriver();
+		} else if (browser.equals(BROWSER.H_CHROME)) {
+			WebDriverManager.chromedriver().setup();
+			ChromeOptions options = new ChromeOptions();
+			options.addArguments("--headless");
+			driver = new ChromeDriver(options);
+		} else if (browser.equals(BROWSER.H_FIREFOX)) {
+			WebDriverManager.firefoxdriver().setup();
+			FirefoxOptions options = new FirefoxOptions();
+			options.addArguments("--headless");
+			driver = new FirefoxDriver(options); 
 		} else {
 			throw new RuntimeException("Please enter correct browser name");
 		}

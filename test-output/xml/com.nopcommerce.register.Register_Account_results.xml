@@ -4,15 +4,15 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="11.122">
+           time="11.370">
   <properties />
   
   
-            <testcase name="Register_04_ConfirmPassword_Not_Match_With_Password" time="2.389" classname="com.nopcommerce.register.Register_Account" />
-                <testcase name="Register_02_Invalid_Email" time="1.925" classname="com.nopcommerce.register.Register_Account" />
-                <testcase name="Register_03_Password_less_than_6_characters" time="1.890" classname="com.nopcommerce.register.Register_Account" />
-                <testcase name="Register_01_Leave_All_Fields_Blank" time="0.616" classname="com.nopcommerce.register.Register_Account" />
-                <testcase name="Register_05_Register_Success" time="2.409" classname="com.nopcommerce.register.Register_Account" />
-                <testcase name="Register_06_Email_Already_Registed" time="1.893" classname="com.nopcommerce.register.Register_Account" />
+            <testcase name="Register_04_ConfirmPassword_Not_Match_With_Password" time="2.470" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_05_Register_Success" time="2.649" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_03_Password_less_than_6_characters" time="1.459" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_01_Leave_All_Fields_Blank" time="0.576" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_02_Invalid_Email" time="2.189" classname="com.nopcommerce.register.Register_Account" />
+                <testcase name="Register_06_Email_Already_Registed" time="2.027" classname="com.nopcommerce.register.Register_Account" />
       
 </testsuite>

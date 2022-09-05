@@ -4,15 +4,15 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.321">
+           time="5.608">
   <properties />
   
   
-            <testcase name="Login_01_Leave_All_Fields_Empty" time="0.291" classname="com.nopcommerce.login.Login_Account" />
-                <testcase name="Login_06_Login_Success" time="0.774" classname="com.nopcommerce.login.Login_Account" />
-                <testcase name="Login_03_Email_Not_Registered" time="1.503" classname="com.nopcommerce.login.Login_Account" />
-                <testcase name="Login_05_Input_Incorrect_Password" time="0.490" classname="com.nopcommerce.login.Login_Account" />
-                <testcase name="Login_02_Invalid_Email" time="0.826" classname="com.nopcommerce.login.Login_Account" />
-                <testcase name="Login_04_Leave_Password_Blank" time="0.437" classname="com.nopcommerce.login.Login_Account" />
+            <testcase name="Login_02_Invalid_Email" time="1.640" classname="com.nopcommerce.login.Login_Account" />
+                <testcase name="Login_01_Leave_All_Fields_Empty" time="0.291" classname="com.nopcommerce.login.Login_Account" />
+                <testcase name="Login_06_Login_Success" time="0.885" classname="com.nopcommerce.login.Login_Account" />
+                <testcase name="Login_03_Email_Not_Registered" time="1.779" classname="com.nopcommerce.login.Login_Account" />
+                <testcase name="Login_05_Input_Incorrect_Password" time="0.539" classname="com.nopcommerce.login.Login_Account" />
+                <testcase name="Login_04_Leave_Password_Blank" time="0.474" classname="com.nopcommerce.login.Login_Account" />
       
 </testsuite>

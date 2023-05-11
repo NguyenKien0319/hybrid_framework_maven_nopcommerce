@@ -12,8 +12,8 @@
 
 	<parameter name="url" value="https://demo.nopcommerce.com/" />
 
-	<test name="Run on Firefox">
-		<parameter name="browser" value="H_FireFox" />
+	<test name="Run on Chrome">
+		<parameter name="browser" value="Chrome" />
 		<classes>
 			<class name="com.nopcommerce.register.Register_Account"/>
 			<!-- <class name="com.nomcommerce.common.Common_01_Login" /> -->

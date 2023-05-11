@@ -72,21 +72,14 @@ public class My_Account extends BaseTest{
 		log.info("Pre-condition - 06: Verify Logout button displayed");
 		verifyTrue(homePage.isButtonByNameDisplayed("Log out"));
 		
-		/*
-		 * log.info("Pre-condition - 07: Navigate to MyAccount Page");
-		 * homePage.clickToHeaderTextLinkByName(driver, "My account");
-		 * 
-		 * log.info("Pre-condition - 08: Open Myaccount Page"); myaccountPage =
-		 * PageGeneratorManager.getMyAccountPage(driver);
-		 * 
-		 * log.info("Pre-condition - 09: Open Myaccount Page"); myaccountPage =
-		 * PageGeneratorManager.getMyAccountPage(driver);
-		 * 
-		 * log.
-		 * info("Pre-condition - 10: Verify title 'Myaccount - Customer info' displayed"
-		 * ); verifyTrue(myaccountPage.isPageTitleDisplayed(
-		 * driver,"My account - Customer info"));
-		 */
+		log.info("Pre-condition - 07: Navigate to MyAccount Page");
+		homePage.clickToHeaderTextLinkByName(driver, "My account");
+		  
+		log.info("Pre-condition - 08: Open Myaccount Page"); 
+		myaccountPage = PageGeneratorManager.getMyAccountPage(driver);
+		 
+		log.info("Pre-condition - 09: Verify title 'Myaccount - Customer info' displayed"); 
+		verifyTrue(myaccountPage.isPageTitleDisplayed(driver,"My account - Customer info"));
 		
 	}
 	

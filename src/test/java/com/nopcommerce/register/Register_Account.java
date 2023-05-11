@@ -177,7 +177,7 @@ public class Register_Account extends BaseTest {
 	@Test
 	public void Register_06_Email_Already_Registed() {
 		log.info("Register_05 - Step_01: Click to 'Logout' button");
-		registerPage.clickToHeaderTextLinkByName(driver, "Log out");
+		registerPage.clickToHeaderTextLinkByName(driver, "Register");
 		homePage = PageGeneratorManager.getHomePage(driver);
 
 		log.info("Register_05 - Step_02: Click to 'Register' button");
